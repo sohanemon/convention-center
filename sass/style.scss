@@ -11,3 +11,10 @@ $primary: red;
 .end-0.toast {
   right: -5em !important;
 }
+.active {
+  transform: scale(1.05) translateY(-30px);
+}
+.packages {
+  margin: 100px 0 !important;
+  line-height: 30px;
+}
