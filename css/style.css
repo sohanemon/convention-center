@@ -1,0 +1,17 @@
+.text-decoration-none {
+  margin-left: 10px;
+}
+
+.wedding-btn {
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+
+.toast:not(.show) {
+  display: block;
+}
+
+.end-0.toast {
+  right: -5em !important;
+}
