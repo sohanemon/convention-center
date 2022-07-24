@@ -1,6 +1,7 @@
 $primary: red;
 .text-decoration-none {
   margin-left: 10px;
+  font-weight: 600;
 }
 .wedding-btn {
   max-width: max-content;
@@ -8,10 +9,7 @@ $primary: red;
 .toast:not(.show) {
   display: block;
 }
-.end-0.toast {
-  right: -5em !important;
-}
-.active {
+.selected {
   transform: scale(1.05) translateY(-30px);
 }
 .packages {

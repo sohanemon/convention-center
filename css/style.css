@@ -1,5 +1,6 @@
 .text-decoration-none {
   margin-left: 10px;
+  font-weight: 600;
 }
 
 .wedding-btn {
@@ -12,11 +13,7 @@
   display: block;
 }
 
-.end-0.toast {
-  right: -5em !important;
-}
-
-.active {
+.selected {
   -webkit-transform: scale(1.05) translateY(-30px);
           transform: scale(1.05) translateY(-30px);
 }

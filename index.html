@@ -16,9 +16,9 @@
   <body>
     <nav class="navbar bg-light">
       <div class="container">
-        <a class="navbar-brand text-primary h1">Navbar</a>
+        <a class="navbar-brand text-primary h1">Convention Center BD</a>
         <div>
-          <ul class="navbar list-unstyled align-items-center">
+          <ul class="navbar list-unstyled d-flex align-items-center m-0">
             <li>
               <a class="text-decoration-none text-primary" href="#">Home</a>
             </li>
@@ -68,7 +68,12 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./images/banner.png" class="d-block w-100" alt="..." />
+          <img
+            class="img-fluid"
+            src="./images/banner.png"
+            class="d-block w-100"
+            alt="..."
+          />
           <div class="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
@@ -76,7 +81,12 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./images/banner.png" class="d-block w-100" alt="..." />
+          <img
+            class="img-fluid"
+            src="./images/banner.png"
+            class="d-block w-100"
+            alt="..."
+          />
           <div class="carousel-caption d-none d-md-block">
             <h5>Second slide label</h5>
             <p>Some representative placeholder content for the second slide.</p>
@@ -84,7 +94,12 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./images/banner.png" class="d-block w-100" alt="..." />
+          <img
+            class="img-fluid"
+            src="./images/banner.png"
+            class="d-block w-100"
+            alt="..."
+          />
           <div class="carousel-caption d-none d-md-block">
             <h5>Third slide label</h5>
             <p>Some representative placeholder content for the third slide.</p>
@@ -134,7 +149,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col">
+        <div class="col-12 col-sm-6">
           <img class="img-fluid" src="./images/wedding.png" alt="" />
         </div>
         <div class="col d-flex flex-column justify-content-center">
@@ -154,8 +169,10 @@
     <div class="container">
       <h1 class="text-center">Our Package</h1>
 
-      <div class="row mt-5 packages">
-        <div class="col-3 p-5 rounded-4">
+      <div
+        class="row row-cols-1 row-cols-md-4 mt-5 p-5 p-md-0 packages d-flex justify-content-center"
+      >
+        <div class="p-5 rounded-4">
           <h3>$300</h3>
           <h4>Business Fair</h4>
           <p>For most Business fair like book fair , craft fair</p>
@@ -180,7 +197,7 @@
             </button>
           </div>
         </div>
-        <div class="col-3 p-5 rounded-4">
+        <div class="p-5 rounded-4">
           <h3>$300</h3>
           <h4>Business Fair</h4>
           <p>For most Business fair like book fair , craft fair</p>
@@ -205,7 +222,7 @@
             </button>
           </div>
         </div>
-        <div class="col-3 p-5 rounded-5 bg-primary active text-white">
+        <div class="p-5 rounded-5 bg-primary selected text-white">
           <h3>$300</h3>
           <h4>Business Fair</h4>
           <p>For most Business fair like book fair , craft fair</p>
@@ -230,7 +247,7 @@
             </button>
           </div>
         </div>
-        <div class="col-3 p-5 rounded-4">
+        <div class="p-5 rounded-4">
           <h3>$300</h3>
           <h4>Business Fair</h4>
           <p>For most Business fair like book fair , craft fair</p>
@@ -261,8 +278,8 @@
 
     <div class="container">
       <h1 class="text-center">Happy Clients Says</h1>
-      <div class="row">
-        <div class="col m-4 p-5 shadow d-flex flex-column align-items-center">
+      <div class="row row-cols-1 row-cols-md-4 d-flex justify-content-center">
+        <div class="mx-4 p-5 shadow d-flex flex-column align-items-center">
           <p class="text-center">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt,
             explicabo.
@@ -275,7 +292,7 @@
           <h5>Rakibul Islam</h5>
           <p>Student</p>
         </div>
-        <div class="col m-4 p-5 shadow d-flex flex-column align-items-center">
+        <div class="mx-4 p-5 shadow d-flex flex-column align-items-center">
           <p class="text-center">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt,
             explicabo.
@@ -288,7 +305,7 @@
           <h5>Rakibul Islam</h5>
           <p>Student</p>
         </div>
-        <div class="col m-4 p-5 shadow d-flex flex-column align-items-center">
+        <div class="mx-4 p-5 shadow d-flex flex-column align-items-center">
           <p class="text-center">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt,
             explicabo.
@@ -307,7 +324,7 @@
 
     <div class="container">
       <h1 class="text-center my-5">Frequently Asked Questions</h1>
-      <div class="row">
+      <div class="row row-cols-1 row-cols-md-2 flex-column-reverse flex-md-row">
         <div class="col">
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
@@ -481,9 +498,11 @@
     <!-- footer -->
 
     <footer class="container-fluid bg-black text-white">
-      <div class="row h-100">
+      <div
+        class="row row-cols-1 row-cols-md-2 h-100 flex-column-reverse flex-md-row"
+      >
         <div class="col d-flex justify-content-center align-items-center">
-          <p>© 2020 bike. All rights reserved</p>
+          <p class="mt-5 mt-md-0">© 2020 bike. All rights reserved</p>
         </div>
         <div
           class="col d-flex justify-content-center align-items-center flex-column"
